@@ -124,7 +124,7 @@ span {
 }
 
 a:hover {
-    color: #b154f0;
+    color: #af8404d1;
 }
 
 .btn:focus {
@@ -320,7 +320,7 @@ figure {
     height: 73px;
     width: 230px;
     padding: 0 15px;
-    background: url(../img/others/btn-bg.webp);
+    background-color: #af8404d1;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -393,7 +393,7 @@ figure {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    background: #b154f0;
+    background: #af8404d1;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -479,6 +479,8 @@ figure {
 
 .section_title h2 {
     margin-bottom: 0;
+    font-size: 45px;
+    font-weight: 0px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
@@ -517,7 +519,7 @@ figure {
 }
 
 .section_title h2 span {
-    color: #b154f0;
+    color: #af8404d1;
 }
 
 .section_title p {
@@ -564,7 +566,7 @@ figure {
     line-height: 52px;
     text-align: center;
     border: 0;
-    background: url(../img/icon/navigation-bg1.webp);
+    background-color: #af8404d1;
     z-index: 9;
     top: 50%;
     -webkit-transform: translatey(-50%);
@@ -872,7 +874,7 @@ textarea:-ms-input-placeholder {
 }
 
 .offcanvas_main_menu li span.menu-expand:hover {
-    color: #b154f0;
+    color: #af8404d1;
 }
 
 .offcanvas_main_menu li a {
@@ -887,7 +889,7 @@ textarea:-ms-input-placeholder {
 }
 
 .offcanvas_main_menu li a:hover {
-    color: #b154f0;
+    color: #af8404d1;
 }
 
 .offcanvas_main_menu li ul.sub-menu {
@@ -917,7 +919,7 @@ textarea:-ms-input-placeholder {
 }
 
 .canvas_close a:hover {
-    color: #b154f0;
+    color: #af8404d1;
 }
 
 .canvas_open {
@@ -954,7 +956,7 @@ textarea:-ms-input-placeholder {
 }
 
 .canvas_open button:hover {
-    color: #b154f0;
+    color: #af8404d1;
 }
 
 /*header css heer*/
@@ -1043,7 +1045,6 @@ textarea:-ms-input-placeholder {
 }
 
 .sing_up_btn .btn.btn-link {
-    background: url(../img/others/btn-signup.webp);
     font-size: 16px;
     width: 157px;
     height: 60px;
@@ -1179,7 +1180,7 @@ textarea:-ms-input-placeholder {
 }
 
 .main_menu nav>ul>li ul.sub_menu li a:hover {
-    color: #b154f0;
+    color: #af8404d1;
 }
 
 /* 06. footer css here */
@@ -1356,7 +1357,7 @@ textarea:-ms-input-placeholder {
 }
 
 .footer_contact_desc p a {
-    color: #b154f0;
+    color: #af8404d1;
 }
 
 @media only screen and (max-width: 767px) {
@@ -1428,7 +1429,7 @@ textarea:-ms-input-placeholder {
 }
 
 .footer_contact_info_list span {
-    color: #b154f0;
+    color: #af8404d1;
     margin-bottom: 9px;
 }
 
@@ -1439,7 +1440,7 @@ textarea:-ms-input-placeholder {
 }
 
 .footer_contact_info_list p a:hover {
-    color: #b154f0;
+    color: #af8404d1;
 }
 
 .footer_contact_info_icon {
@@ -1454,7 +1455,7 @@ textarea:-ms-input-placeholder {
 
 .footer_contact_info_icon span {
     font-size: 36px;
-    color: #b154f0;
+    color: #af8404d1;
 }
 
 .footer_menu ul li a {
@@ -1464,7 +1465,7 @@ textarea:-ms-input-placeholder {
 }
 
 .footer_menu ul li a:hover {
-    color: #b154f0;
+    color: #af8404d1;
 }
 
 @media only screen and (max-width: 767px) {
@@ -1558,11 +1559,11 @@ textarea:-ms-input-placeholder {
 }
 
 .copyright_right p a:hover {
-    color: #b154f0;
+    color: #af8404d1;
 }
 
 .copyright_right p i {
-    color: #b154f0;
+    color: #af8404d1;
     font-size: 16px;
 }
 
@@ -1606,7 +1607,7 @@ textarea:-ms-input-placeholder {
 }
 
 .footer_bottom_link_menu ul li a:hover {
-    color: #b154f0;
+    color: #af8404d1;
 }
 
 .footer_bottom_inner {
@@ -1667,7 +1668,7 @@ textarea:-ms-input-placeholder {
 }
 
 .newsletter_desc p a {
-    color: #b154f0;
+    color: #af8404d1;
 }
 
 @media only screen and (max-width: 767px) {
@@ -1710,7 +1711,7 @@ textarea:-ms-input-placeholder {
     height: 40px;
     width: 60px;
     font-size: 30px;
-    background: #b154f0;
+    background: #af8404d1;
     color: #ffffff;
     border-radius: 15px;
 }
@@ -1869,13 +1870,15 @@ textarea:-ms-input-placeholder {
 
 .hero_content h1 {
     margin-bottom: 41px;
-    font-family: "Metal Mania", cursive;
-    text-shadow: 3px 3px 0px #b154f0;
+    font-family: "Exo", sans-serif;
+    font-size: 50px !important;
+    line-height: 60px !important;
+    text-shadow: 3px 3px 0px #150520;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .hero_content h1 {
-        font-size: 95px;
+        font-size: 30px;
         line-height: 98px;
     }
 }
@@ -1883,7 +1886,7 @@ textarea:-ms-input-placeholder {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .hero_content h1 {
         margin-bottom: 33px;
-        font-size: 88px;
+        font-size: 30px;
         line-height: 88px;
     }
 }
@@ -1891,7 +1894,7 @@ textarea:-ms-input-placeholder {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .hero_content h1 {
         margin-bottom: 21px;
-        font-size: 75px;
+        font-size: 30px;
         line-height: 78px;
     }
 }
@@ -1899,7 +1902,7 @@ textarea:-ms-input-placeholder {
 @media only screen and (max-width: 767px) {
     .hero_content h1 {
         margin-bottom: 15px;
-        font-size: 52px;
+        font-size: 35px !important;
         line-height: 55px;
     }
 }
@@ -1907,7 +1910,7 @@ textarea:-ms-input-placeholder {
 @media only screen and (max-width: 575px) {
     .hero_content h1 {
         margin-bottom: 13px;
-        font-size: 40px;
+        font-size: 35px !important;
         line-height: 48px;
     }
 }
@@ -2096,7 +2099,7 @@ textarea:-ms-input-placeholder {
 }
 
 .gaming_world_text h3 a:hover {
-    color: #b154f0;
+    color: #af8404d1;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2407,12 +2410,12 @@ textarea:-ms-input-placeholder {
 }
 
 .upcoming_gaming_text h3 a:hover {
-    color: #b154f0;
+    color: #af8404d1;
 }
 
 .upcoming_gaming_text span {
     font-size: 14px;
-    color: #b154f0;
+    color: #af8404d1;
 }
 
 .upcoming_gaming_thumb {
@@ -2670,7 +2673,7 @@ textarea:-ms-input-placeholder {
 }
 
 .counterup_text h2.color4 {
-    color: #b154f0;
+    color: #af8404d1;
 }
 
 .counterup_text span {
@@ -3054,11 +3057,11 @@ textarea:-ms-input-placeholder {
 }
 
 .gaming_form_list .nice-select:hover {
-    border-color: #b154f0;
+    border-color: #af8404d1;
 }
 
 .gaming_form_list .nice-select.open {
-    border-color: #b154f0;
+    border-color: #af8404d1;
 }
 
 .gaming_form_list .nice-select::after {
@@ -3120,7 +3123,7 @@ textarea:-ms-input-placeholder {
 }
 
 .gaming_form_search:hover {
-    border-color: #b154f0;
+    border-color: #af8404d1;
 }
 
 .gaming_form_search input::-webkit-input-placeholder {
@@ -3169,7 +3172,7 @@ textarea:-ms-input-placeholder {
 }
 
 .gaming_form_search button:hover {
-    color: #b154f0;
+    color: #af8404d1;
 }
 
 section.error_section {
@@ -3304,7 +3307,7 @@ section.error_section {
 
 .testimonial_section {
     padding: 124px 0 250px;
-    margin-bottom: 125px;
+    margin-bottom: 65px;
     position: relative;
 }
 
@@ -3313,7 +3316,7 @@ section.error_section {
     content: "";
     width: 38%;
     height: 10px;
-    background: #b154f0;
+    background: #af8404d1;
     right: 0;
     top: 185px;
 }
@@ -3582,7 +3585,7 @@ section.error_section {
 }
 
 .testimonial_author span {
-    color: #b154f0;
+    color: #af8404d1;
 }
 
 .breadcrumbs_bg {
@@ -3649,7 +3652,7 @@ section.error_section {
     font-size: 90px;
     line-height: 90px;
     font-family: "Metal Mania", cursive;
-    text-shadow: 3px 3px 0px #b154f0;
+    text-shadow: 3px 3px 0px #af8404d1;
     margin-bottom: 25px;
 }
 
@@ -3688,7 +3691,7 @@ section.error_section {
 .breadcrumbs_text ul li {
     font-size: 17px;
     font-weight: bold;
-    color: #b154f0;
+    color: #af8404d1;
     text-transform: uppercase;
     margin-right: 8px;
 }
@@ -3709,7 +3712,7 @@ section.error_section {
 }
 
 .breadcrumbs_text ul li a:hover {
-    color: #b154f0;
+    color: #af8404d1;
 }
 
 .breadcrumbs_text ul li span {
@@ -3795,7 +3798,7 @@ section.error_section {
     font-size: 22px;
     line-height: 32px;
     font-weight: bold;
-    color: #b154f0;
+    color: #af8404d1;
     position: relative;
     padding-left: 98px;
     margin-bottom: 25px;
@@ -3806,7 +3809,7 @@ section.error_section {
     content: "";
     width: 68px;
     height: 5px;
-    background: #b154f0;
+    background: #af8404d1;
     left: 0;
     top: 50%;
     -webkit-transform: translatey(-50%);
@@ -4050,7 +4053,7 @@ section.error_section {
 }
 
 .gamer_team_text span {
-    color: #b154f0;
+    color: #af8404d1;
 }
 
 @media only screen and (max-width: 767px) {
@@ -4274,7 +4277,7 @@ section.error_section {
 }
 
 .blog_content h3 a:hover {
-    color: #b154f0;
+    color: #af8404d1;
 }
 
 .blog_content>a {
@@ -4284,7 +4287,7 @@ section.error_section {
 }
 
 .blog_content>a:hover {
-    color: #b154f0;
+    color: #af8404d1;
 }
 
 .blog_content>a::before {
@@ -4292,7 +4295,7 @@ section.error_section {
     content: "";
     width: 30px;
     height: 2px;
-    background: #b154f0;
+    background: #af8404d1;
     left: 0;
     top: 50%;
     -webkit-transform: translatey(-50%);
@@ -4308,7 +4311,7 @@ section.error_section {
 }
 
 .blog_date span i {
-    color: #b154f0;
+    color: #af8404d1;
 }
 
 .widget_search form {
@@ -4354,7 +4357,7 @@ section.error_section {
     height: 100%;
     color: #ffffff;
     padding: 0 21px;
-    background: #b154f0;
+    background: #af8404d1;
     border-radius: 5px;
 }
 
@@ -4377,8 +4380,8 @@ section.error_section {
 }
 
 .widget_category.blog_widget_category ul li a:hover {
-    background: #b154f0;
-    border-color: #b154f0;
+    background: #af8404d1;
+    border-color: #af8404d1;
 }
 
 .widget_category.blog_widget_category ul li a i {
@@ -4415,8 +4418,8 @@ section.error_section {
 }
 
 .widget_tags ul li a:hover {
-    background: #b154f0;
-    border-color: #b154f0;
+    background: #af8404d1;
+    border-color: #af8404d1;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -4462,7 +4465,7 @@ section.error_section {
 }
 
 .pagination_pages ul li span {
-    border: 2px solid #b154f0;
+    border: 2px solid #af8404d1;
     width: 55px;
     height: 55px;
     line-height: 53px;
@@ -4500,7 +4503,7 @@ section.error_section {
 }
 
 .pagination_pages ul li a:hover {
-    border: 2px solid #b154f0;
+    border: 2px solid #af8404d1;
 }
 
 @media only screen and (max-width: 767px) {
@@ -4766,7 +4769,7 @@ section.error_section {
     content: "";
     width: 4px;
     height: 4px;
-    background: #b154f0;
+    background: #af8404d1;
     border-radius: 50%;
     right: 0;
     top: 50%;
@@ -4958,8 +4961,8 @@ section.error_section {
 }
 
 .blog_details_table_content ul li a:hover {
-    background: #b154f0;
-    border-color: #b154f0;
+    background: #af8404d1;
+    border-color: #af8404d1;
 }
 
 .blog_details_table_content ul li a:hover i {
@@ -4968,7 +4971,7 @@ section.error_section {
 
 .blog_details_table_content ul li a i {
     margin-right: 8px;
-    color: #b154f0;
+    color: #af8404d1;
     -webkit-transition: 0.3s;
     transition: 0.3s;
 }
@@ -5127,8 +5130,8 @@ section.error_section {
 }
 
 .post__social ul li a:hover {
-    background: #b154f0;
-    border-color: #b154f0;
+    background: #af8404d1;
+    border-color: #af8404d1;
 }
 
 @media only screen and (max-width: 767px) {
@@ -5193,8 +5196,8 @@ section.error_section {
 }
 
 .blog_like_inner>button:hover {
-    background: #b154f0;
-    border-color: #b154f0;
+    background: #af8404d1;
+    border-color: #af8404d1;
 }
 
 .blog_like_inner>button.next_arrow {
@@ -5490,7 +5493,7 @@ section.error_section {
 .comment_list .comment_content span {
     font-size: 14px;
     line-height: 30px;
-    color: #b154f0;
+    color: #af8404d1;
     display: inline-block;
     text-transform: uppercase;
     margin-bottom: 10px;
@@ -5573,12 +5576,12 @@ section.error_section {
 }
 
 .comments_form_input input:focus {
-    border-color: #b154f0;
+    border-color: #af8404d1;
 }
 
 .comments_form_input input:focus::-webkit-input-placeholder {
     color: #ffffff;
-    border-color: #b154f0;
+    border-color: #af8404d1;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -5627,7 +5630,7 @@ section.error_section {
 }
 
 .comments_form_input textarea:focus {
-    border-color: #b154f0;
+    border-color: #af8404d1;
 }
 
 .comments_form_input textarea:focus::-webkit-input-placeholder {
@@ -5653,7 +5656,7 @@ section.error_section {
     height: 64px;
     line-height: 60px;
     border: 0;
-    background: #b154f0;
+    background: #af8404d1;
     color: #fff5ec;
 }
 
@@ -5932,7 +5935,7 @@ section.error_section {
 }
 
 .contact_info_text p a:hover {
-    color: #b154f0;
+    color: #af8404d1;
 }
 
 .contact_map {
@@ -6050,12 +6053,12 @@ section.error_section {
 }
 
 .form_input input:focus {
-    border-color: #b154f0;
+    border-color: #af8404d1;
 }
 
 .form_input input:focus::-webkit-input-placeholder {
     color: #ffffff;
-    border-color: #b154f0;
+    border-color: #af8404d1;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -6116,7 +6119,7 @@ section.error_section {
 }
 
 .form_textarea textarea:focus {
-    border-color: #b154f0;
+    border-color: #af8404d1;
 }
 
 .form_textarea textarea:focus::-webkit-input-placeholder {
@@ -6332,7 +6335,7 @@ section.error_section {
     font-size: 18px;
     line-height: 35px;
     font-weight: 600;
-    color: #b154f0;
+    color: #af8404d1;
     text-transform: uppercase;
     margin-bottom: 14px;
 }
@@ -6410,7 +6413,7 @@ section.error_section {
     font-size: 18px;
     line-height: 35px;
     font-weight: 600;
-    color: #b154f0;
+    color: #af8404d1;
     margin-bottom: 24px;
 }
 
@@ -6600,7 +6603,7 @@ section.error_section {
     font-size: 18px;
     line-height: 35px;
     font-weight: 600;
-    color: #b154f0;
+    color: #af8404d1;
     margin-bottom: 12px;
 }
 
@@ -6690,7 +6693,7 @@ section.error_section {
 }
 
 .team_players_inner .slick-dots li.slick-active button {
-    background: #b154f0;
+    background: #af8404d1;
 }
 
 @media only screen and (max-width: 767px) {
@@ -6827,7 +6830,7 @@ section.error_section {
     font-size: 18px;
     line-height: 35px;
     font-weight: 600;
-    color: #b154f0;
+    color: #af8404d1;
     margin-bottom: 24px;
 }
 
@@ -6897,7 +6900,7 @@ section.error_section {
 }
 
 .game_details_content h2.color2 {
-    color: #b154f0;
+    color: #af8404d1;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -7303,7 +7306,7 @@ section.error_section {
 }
 
 .question_search input:focus {
-    border-color: #b154f0;
+    border-color: #af8404d1;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -7335,7 +7338,7 @@ section.error_section {
     border: 0;
     width: 65px;
     height: 65px;
-    background: #b154f0;
+    background: #af8404d1;
     border-radius: 8px;
     line-height: 65px;
 }
@@ -7458,7 +7461,7 @@ section.error_section {
 
 .faq_question_list .accordion-button:not(.collapsed)::after {
     content: "";
-    background: #b154f0;
+    background: #af8404d1;
 }
 
 .faq_question_list .accordion-collapse {
@@ -7876,7 +7879,7 @@ only screen and (max-width: 767px) {
     display: block;
     font-size: 22px;
     font-weight: 700;
-    color: #b154f0;
+    color: #af8404d1;
     margin-bottom: 15px;
     position: relative;
     padding-left: 96px;
@@ -7894,7 +7897,7 @@ only screen and (max-width: 767px) {
     content: "";
     width: 66px;
     height: 6px;
-    background: #b154f0;
+    background: #af8404d1;
     top: 50%;
     left: 0;
     -webkit-transform: translateY(-50%);
@@ -7979,4 +7982,16 @@ only screen and (max-width: 767px) {
     position: absolute;
     top: 0;
     left: 0;
+}
+
+
+.single_gaming_world.wow.fadeInUp {
+    background-color: #0101236e;
+}
+
+.zoom-in{
+    transition: transform .2s; /* Animation */
+}
+.zoom-in:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
