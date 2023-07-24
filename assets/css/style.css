@@ -7998,3 +7998,21 @@ only screen and (max-width: 767px) {
 .zoom-in:hover {
     transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+
+.get-started-btn {
+    margin-left: 22px;
+    background: #af8404d1;
+    color: #fff;
+    border-radius: 50px;
+    padding: 8px 25px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14px;
+    display: inline-block;
+  }
+  
+  .get-started-btn:hover {
+    background: #233b5a;
+    color: #fff;
+  }
+  
