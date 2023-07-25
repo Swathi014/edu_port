@@ -1209,6 +1209,10 @@ textarea:-ms-input-placeholder {
         justify-content: center;
         margin-bottom: 7px;
     }
+
+    .footer_widget_list.footer_list_menu {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 575px) {
@@ -1332,7 +1336,7 @@ textarea:-ms-input-placeholder {
 
 @media only screen and (max-width: 575px) {
     .footer_logo {
-        margin-bottom: 18px;
+        display: none;
     }
 }
 
