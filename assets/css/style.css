@@ -1777,7 +1777,7 @@ textarea:-ms-input-placeholder {
 
 @media only screen and (max-width: 575px) {
     .hero_banner_section {
-        height: 845px;
+        height: 740px;
     }
     .sing_up_btn {
         display: none;
@@ -1872,7 +1872,7 @@ textarea:-ms-input-placeholder {
 
 @media only screen and (max-width: 575px) {
     .hero_content {
-        padding-top: 152px;
+        padding-top: 56px;
     }
 }
 
