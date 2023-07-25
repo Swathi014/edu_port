@@ -949,7 +949,7 @@ textarea:-ms-input-placeholder {
 
 .canvas_open button {
     font-size: 38px;
-    display: block;
+    display: none;
     line-height: 16px;
     border: none;
     background: none;
@@ -1209,6 +1209,10 @@ textarea:-ms-input-placeholder {
         justify-content: center;
         margin-bottom: 7px;
     }
+
+    .footer_widget_list.footer_list_menu {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 575px) {
@@ -1328,11 +1332,12 @@ textarea:-ms-input-placeholder {
     .footer_logo {
         margin-bottom: 22px;
     }
+    
 }
 
 @media only screen and (max-width: 575px) {
     .footer_logo {
-        margin-bottom: 18px;
+        display: none;
     }
 }
 
@@ -1772,7 +1777,7 @@ textarea:-ms-input-placeholder {
 
 @media only screen and (max-width: 575px) {
     .hero_banner_section {
-        height: 845px;
+        height: 650px;
     }
     .sing_up_btn {
         display: none;
@@ -1867,7 +1872,7 @@ textarea:-ms-input-placeholder {
 
 @media only screen and (max-width: 575px) {
     .hero_content {
-        padding-top: 152px;
+        padding-top: 56px;
     }
 }
 
@@ -6746,6 +6751,10 @@ section.error_section {
 .game_details_inner {
     margin-bottom: 60px;
 }
+.game_details_desc span {
+    color: #af8404d1;
+    font-weight: 800;
+}
 
 .game_details_thumb_inner {
     margin-bottom: 40px;
@@ -8016,3 +8025,8 @@ only screen and (max-width: 767px) {
     color: #fff;
   }
   
+  .Enroll_btn {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
