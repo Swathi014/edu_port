@@ -949,7 +949,7 @@ textarea:-ms-input-placeholder {
 
 .canvas_open button {
     font-size: 38px;
-    display: block;
+    display: none;
     line-height: 16px;
     border: none;
     background: none;
@@ -1332,6 +1332,7 @@ textarea:-ms-input-placeholder {
     .footer_logo {
         margin-bottom: 22px;
     }
+    
 }
 
 @media only screen and (max-width: 575px) {
