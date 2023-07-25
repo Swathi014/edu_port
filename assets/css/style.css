@@ -6751,6 +6751,10 @@ section.error_section {
 .game_details_inner {
     margin-bottom: 60px;
 }
+.game_details_desc span {
+    color: #af8404d1;
+    font-weight: 800;
+}
 
 .game_details_thumb_inner {
     margin-bottom: 40px;
@@ -8021,3 +8025,8 @@ only screen and (max-width: 767px) {
     color: #fff;
   }
   
+  .Enroll_btn {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
