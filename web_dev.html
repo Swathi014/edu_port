@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Kalifo Edu - courses</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="	" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Add site Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/png" />
+
+    <!-- CSS 
+    ========================= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Metal+Mania&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/icofont.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/nice-select.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="icofont/css/icofont.min.css" />
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body class="body__bg" data-bgimg="assets/img/bg/body-bg.webp">
+    <!--header area start-->
+    <header class="header_section header_transparent sticky-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div
+              class="main_header d-flex justify-content-between align-items-center"
+            >
+              <div class="header_logo">
+                <a class="sticky_none" href="index.html"
+                  ><img
+                    aria-label="logo"
+                    width="150"
+                    height="79"
+                    src="assets/img/logo/logo (2).svg"
+                    alt=""
+                /></a>
+              </div>
+              <!--main menu start-->
+              <div class="main_menu d-none d-lg-block">
+                <nav>
+                  <ul class="d-flex">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="index.html">Courses</a></li>
+                    <li><a href="index.html">Career</a></li>
+                    <li><a href="index.html">Contact</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <!--main menu end-->
+              <div class="header_right_sidebar d-flex align-items-center">
+                <div class="sing_up_btn">
+                  <a class="btn btn-link" href="registration.html"
+                    >SIGN UP
+                    <img
+                      width="15"
+                      height="15"
+                      src="assets/img/icon/arrrow-icon2.webp"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="canvas_open">
+                  <button
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasMenu"
+                  >
+                    <i class="icofont-navigation-menu"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--header area end-->
+
+    <!--offcanvas menu area start-->
+    <!-- <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu">
+        <div class="offcanvas-header justify-content-end">
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="offcanvas_main_menu">
+                <li class="menu-item-has-children active">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="menu-item-has-children"><a href="#">Match</a>
+                    <ul class="sub-menu">
+                        <li><a href="match.html">Match Page</a></li>
+                        <li><a href="match-details.html">Match Details</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children"><a href="#">Pages</a>
+                    <ul class="sub-menu">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="all-game.html">All Game</a></li>
+                        <li><a href="game-details.html">Game Details</a></li>
+                        <li><a href="faq.html">Faq Page</a></li>
+                        <li><a href="players.html">Players</a></li>
+                        <li><a href="player-details.html">Player Details</a></li>
+                        <li><a href="registration.html">Sign Up</a></li>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="404.html">Error 404</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children">
+                    <a href="#">blog</a>
+                    <ul class="sub-menu">
+                        <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+                        <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+                        <li><a href="blog-without-sidebar.html">Blog Without Sidebar</a></li>
+                        <li><a href="blog-grid-left-sidebar.html">Blog Grid Left Sidebar</a></li>
+                        <li><a href="blog-grid-right-sidebar.html">Blog Grid Right Sidebar</a></li>
+                        <li><a href="blog-grid-without-sidebar.html">Blog Grid Without Sidebar</a></li>
+                        <li><a href="blog-details-left-sidebar.html">Blog Details Left Sidebar</a></li>
+                        <li><a href="blog-details-right-sidebar.html">Blog Details Right Sidebar</a></li>
+                        <li><a href="blog-details.html">Blog Details</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children"><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div> -->
+    <!--offcanvas menu area end-->
+
+    <!-- page wrapper start -->
+    <!-- breadcrumbs area start -->
+    <div
+      class="breadcrumbs_aree breadcrumbs_bg mb-30"
+      data-bgimg="assets/img/bg/breadcrumbs-bg.webp"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="hero_content text-center">
+              <h1>WEB DEVELOPMENT</h1>
+              <ul class="d-flex justify-content-center">
+                <li><a href="index.html">Home </a></li>
+                <li><span>//</span></li>
+                <li>Courses</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- breadcrumbs area end -->
+
+    <!-- page wrapper start -->
+    <div class="page_wrapper">
+      <!--game details section area start-->
+      <section class="game_details_section mb-125">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="game_details_inner">
+                <div class="game_details_content top">
+                  <span>Welcome to the Web Development Course!</span>
+                  <h2 class="game_details_title">Course Overview:</h2>
+                  <div class="game_details_desc">
+                    <p>
+                        This comprehensive web development course is designed to equip participants with the skills and knowledge needed to become proficient in building modern, interactive, and responsive websites and web applications. Whether you're a complete beginner or an aspiring developer looking to enhance your skills, this course will provide a solid foundation in front-end and back-end web development.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="gam_additional_information">
+                  <h3 class="additional_information_title">
+                    Additional Information:
+                  </h3>
+                  <div class="gam_additional_inner d-flex">
+                    <div class="additional_information_text">
+                      <h4>Duration:</h4>
+                      <span>3 Months</span>
+                    </div>
+                    <div class="additional_information_text">
+                      <h4>Fee:</h4>
+                      <span>30,000 INR</span>
+                    </div>
+                    <div class="additional_information_text">
+                      <h4>Installments: </h4>
+                      <span>3</span>
+                    </div>
+                    <div class="additional_information_text">
+                      <h4>Mode</h4>
+                      <span>Offline</span>
+                    </div>
+                    <div class="additional_information_text">
+                      <h4>Date&Time</h4>
+                      <span>Will be provided soon</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="game_details_content bottom">
+                  <div class="game_details_content_step">
+                    <h2>What You'll Learn:</h2>
+                    <div class="game_details_desc">
+                      <li>
+                        <span> HTML (Hypertext Markup Language):</span> Understanding the structure of web pages and creating content using HTML tags.
+                        Organizing content with headings, paragraphs, lists, tables, and more.
+                        Embedding media such as images and videos.
+                        Creating links and anchors to connect web pages.
+                      </li>
+                      <li><span>CSS (Cascading Style Sheets):</span> Styling web pages to control the layout, colors, fonts, and overall appearance.
+                        Applying CSS rules to target specific HTML elements.
+                        Working with selectors, classes, and IDs to style elements.
+                        Understanding responsive design and media queries for different devices.</li>
+                      <li><span>JavaScript:</span> Learning the fundamentals of programming with JavaScript.
+                        Manipulating the DOM (Document Object Model) to create interactive web pages.
+                        Handling user events like clicks, form submissions, and keypresses.
+                        Working with variables, loops, and conditional statements.
+                        Making API calls to fetch data from servers.</li>
+                      <li><span>Front-End Frameworks:</span> Exploring popular front-end frameworks like React, Angular, or Vue.
+                        Building more complex and interactive user interfaces using these frameworks.
+                        Understanding component-based architecture and state management.</li>
+                      <li><span> Back-End Development:</span> Introduction to server-side programming.
+                        Learning back-end technologies like Node.js, Python (with Django or Flask), Ruby (with Ruby on Rails), etc.
+                        Handling HTTP requests and responses on the server.
+                        Implementing server-side validation and authentication.</li>
+                      <li><span>Databases:</span>Understanding database concepts and data modeling.
+                        Learning SQL (Structured Query Language) for relational databases.
+                        Exploring NoSQL databases like MongoDB for more flexible data structures.</li>
+                      <li><span>Web Application Security:</span> Learning about common security threats and best practices for securing web applications.
+                        Implementing user authentication and authorization mechanisms.
+                        Protecting against cross-site scripting (XSS), SQL injection, and other vulnerabilities.</li>
+                      <li><span>Version Control and Deployment:</span> Using Git for version control to track changes in code.
+                        Collaborating with other developers using Git repositories.
+                        Deploying web applications to web servers or cloud platforms.</li>
+                      <li><span> Web Performance Optimization:</span> Techniques for optimizing website loading speed and performance.
+                        Caching strategies and minimizing network requests.</li>
+                      <li><span>Project Development:</span> Working on real-world projects to apply the knowledge gained throughout the course.
+                        Building a portfolio of web development projects to showcase your skills to potential employers.</li>
+                      
+                    </div>
+                  </div>
+                  <div class="game_details_content_step">
+                    <h2>Why Choose Our Offline Full Stack Development Course?</h2>
+                    <div class="blog_comment_wrapper match_details_comment">
+                        <div class="comments_box">
+                          
+                          <div class="comment_list d-flex">
+                            <div class="comment_content"> 
+                              
+                                <li><span>Physical Classroom Experience: </span> Enjoy the benefits of learning in a traditional classroom setting with direct interactions with instructors and fellow students.</li>
+                                <li style="margin-top: 10px;"><span>Dedicated Instructors:</span> Our instructors are experienced professionals who are passionate about sharing their knowledge and guiding you towards success.</li>
+                                <li style="margin-top: 10px;"><span>Hands-On Approach:</span>Get ample opportunities to practice and apply what you learn through hands-on exercises and projects.</li>
+                                <li style="margin-top: 10px;"><span>One-on-One Support:</span>Receive personalized attention and support from instructors to address your doubts and queries effectively.</li>
+                                <li style="margin-top: 10px;"><span>Practical Learning:</span>Emphasis on real-world application ensures you are job-ready upon completion of the course.</li>
+                                <li style="margin-top: 10px;"><span>Networking Opportunities:</span>Connect with like-minded individuals and potential employers within your classroom environment.</li>
+                                <li style="margin-top: 10px;"><span>Convenient Schedule: </span>Our course is designed to fit into your busy life, offering flexible timings to accommodate various schedules.</li>   
+                            
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="game_details_content_step">
+                    
+                    <div class="game_details_desc">
+                      <p>
+                        Enroll in our Offline Web Development Course and take the first step towards an exciting career in web development. Acquire the skills and confidence you need to create dynamic, user-friendly, and high-performing web applications. We look forward to guiding you on this transformative learning journey!
+                      </p>
+                    </div>
+                  </div>
+                  
+                  
+                </div>
+              </div>
+              <div class="Enroll_btn"><a class="btn btn-link wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1.3s" href="">Enroll</a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--game details section area end-->
+    </div>
+    <!-- page wrapper end -->
+
+    <!--footer area start-->
+    <footer class="footer_widgets pt-5">
+      <div class="main_footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="main_footer_inner d-flex">
+                <div class="footer_widget_list">
+                  <div class="footer_logo">
+                    <a href="#"
+                      ><img
+                        aria-label="logo"
+                        width="215"
+                        height="79"
+                        src="assets/img/logo/logo (2).svg"
+                        alt=""
+                    /></a>
+                  </div>
+                  <div class="footer_contact_desc">
+                    <p>
+                      It long estabhed fact that reader will ditracted the
+                      readable content looking using readable.
+                    </p>
+                  </div>
+                  <div class="footer_social">
+                    <ul class="d-flex">
+                      <li>
+                        <a
+                          aria-label="facebook"
+                          class="facebook"
+                          href="https://www.facebook.com"
+                          ><i class="icofont-facebook"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a
+                          aria-label="dribble"
+                          class="dribbble"
+                          href="https://dribbble.com"
+                          ><i class="icofont-dribbble"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a
+                          aria-label="youtube"
+                          class="youtube"
+                          href="https://www.youtube.com"
+                          ><i class="icofont-youtube-play"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a
+                          aria-label="twitter"
+                          class="twitter"
+                          href="https://twitter.com"
+                          ><i class="icofont-twitter"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="footer_widget_list contact">
+                  <h3>Contact</h3>
+                  <div class="footer_contact_info">
+                    <div class="footer_contact_info_list">
+                      <span>Location:</span>
+                      <p>
+                        HiLITE Business Park,<br />
+                        1102 First Floor, Kozhikode, Kerala 673014
+                      </p>
+                    </div>
+                    <div class="footer_contact_info_list">
+                      <span>Phone:</span>
+                      <p><a href="#">+91 9447900607</a></p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="footer_widget_list footer_list_menu">
+                  <h3>Content</h3>
+                  <div class="footer_menu">
+                    <ul>
+                      <li><a href="about.html"> Copywriting</a></li>
+                      <li><a href="about.html">Social Media</a></li>
+                      <li><a href="about.html">Interactive Media</a></li>
+                      <li><a href="about.html">Motion Design</a></li>
+                      <li><a href="about.html">Illustration</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer_bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="footer_bottom_inner d-flex justify-content-between">
+                <div class="copyright_right">
+                  <p>
+                    © 2023 Kalifo_Edu Made with <i class="icofont-heart"></i> by
+                    <a href="https://www.kalifotech.com/"
+                      >Kalifo Technologies</a
+                    >
+                  </p>
+                </div>
+                <div class="footer_bottom_link_menu">
+                  <ul class="d-flex">
+                    <li><a href="about.html">Terms & Condition </a></li>
+                    <li><a href="about.html">Privacy Policy </a></li>
+                  </ul>
+                </div>
+
+                <div class="scroll__top_icon">
+                  <a id="scroll-top" href="#"
+                    ><img
+                      aria-label="scroll-top"
+                      width="46"
+                      height="40"
+                      src="assets/img/icon/scroll-top.webp"
+                      alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--footer area end-->
+
+    <!-- JS
+============================================ -->
+    <!--modernizr min js here-->
+    <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
+
+    <!-- Vendor JS -->
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
+    <script src="assets/js/vendor/popper.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/jquery.nice-select.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/jquery-waypoints.js"></script>
+
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
