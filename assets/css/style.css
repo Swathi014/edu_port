@@ -5473,6 +5473,7 @@ section.error_section {
         margin-top: 20px;
         text-align: center;
         padding-left: 0;
+        font-size: 12px;
     }
 }
 
@@ -7781,6 +7782,10 @@ section.error_section {
         -ms-flex-direction: column;
         flex-direction: column;
         padding: 30px;
+
+    }
+    .game_details_desc{
+        font-size: 12px;
     }
 }
 
@@ -8030,3 +8035,4 @@ only screen and (max-width: 767px) {
     display: flex;
     justify-content: center;
 }
+
