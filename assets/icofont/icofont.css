@@ -33,19 +33,54 @@ url("./fonts/icofont.woff") format("woff");
   -webkit-font-smoothing: antialiased;
 }
 
-.icofont-instagram:before
-{
-  content: "\ed46";
-}
-
 .icofont-facebook:before
 {
   content: "\ed37";
 }
 
+.icofont-instagram:before
+{
+  content: "\ed46";
+}
+
 .icofont-linkedin:before
 {
   content: "\ed4d";
+}
+
+.icofont-arrow-up:before
+{
+  content: "\ea5e";
+}
+
+.icofont-arrow-down:before
+{
+  content: "\ea5b";
+}
+
+.icofont-plus:before
+{
+  content: "\efc2";
+}
+
+.icofont-duotone.icofont-plus-circle:before
+{
+  content: "\13b8b";
+}
+
+.icofont-duotone.icofont-plus-circle:after
+{
+  content: "\13b8a";
+}
+
+.icofont-minus:before
+{
+  content: "\ef9a";
+}
+
+.icofont-minus-circle:before
+{
+  content: "\ef98";
 }
 
 [class^="icofont-"].icofont-duotone,

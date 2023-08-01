@@ -7438,8 +7438,8 @@ section.error_section {
 
 .faq_question_list .accordion-button::after {
     background-image: none;
-    content: "";
-    font-size: 11px;
+    content: "+";
+    font-size: 16px;
     font-family: IcoFont !important;
     height: auto;
     -webkit-transform: none !important;
@@ -7477,8 +7477,9 @@ section.error_section {
 }
 
 .faq_question_list .accordion-button:not(.collapsed)::after {
-    content: "";
+    content: "-";
     background: #af8404d1;
+    size: 20px;
 }
 
 .faq_question_list .accordion-collapse {
